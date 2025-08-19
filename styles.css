@@ -7,3 +7,39 @@
     background-color: white;
     color: black;
 }
+
+.subscribe {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f0f8ff;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subscribe h2 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background: #023e8a;
+}

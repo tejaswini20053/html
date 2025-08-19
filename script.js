@@ -38,3 +38,20 @@ for (let i = 0; i < images.length; i++) {
         `;
     });
 }
+
+let subscribeForm = document.querySelector("#subscribeForm");
+let message = document.querySelector("#message");
+
+subscribeForm.addEventListener("submit", function(event){
+    event.preventDefault();
+    let email = document.querySelector("#email").value;
+
+    if(email){
+        message.style.color = "green";
+        message.innerText = "Thank you for subscribing!";
+        subscribeForm.reset();
+    } else {
+        message.style.color = "red";
+        message.innerText = "Please enter a valid email!";
+    }
+});
